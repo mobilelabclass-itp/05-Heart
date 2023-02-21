@@ -11,6 +11,7 @@
 		ABB4580B29A54730001394BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB4580A29A54730001394BB /* Preview Assets.xcassets */; };
 		ABB4582429A5480A001394BB /* HeartPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581129A54809001394BB /* HeartPulse.swift */; };
 		ABB4582F29A5480A001394BB /* AnimatingShapesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581C29A5480A001394BB /* AnimatingShapesApp.swift */; };
+		ABB4585929A58216001394BB /* ShapeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4585829A58216001394BB /* ShapeButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ABB4580A29A54730001394BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABB4581129A54809001394BB /* HeartPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartPulse.swift; sourceTree = "<group>"; };
 		ABB4581C29A5480A001394BB /* AnimatingShapesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatingShapesApp.swift; sourceTree = "<group>"; };
+		ABB4585829A58216001394BB /* ShapeButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				ABB4581C29A5480A001394BB /* AnimatingShapesApp.swift */,
 				ABB4581129A54809001394BB /* HeartPulse.swift */,
+				ABB4585829A58216001394BB /* ShapeButtonStyle.swift */,
 				ABB4580729A54730001394BB /* Assets.xcassets */,
 				ABB4580929A54730001394BB /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB4582429A5480A001394BB /* HeartPulse.swift in Sources */,
+				ABB4585929A58216001394BB /* ShapeButtonStyle.swift in Sources */,
 				ABB4582F29A5480A001394BB /* AnimatingShapesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
