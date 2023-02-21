@@ -4,6 +4,55 @@ See the License.txt file for this sample’s licensing information.
 
 import SwiftUI
 
+struct HeartPulseView: View {
+    @State private var pulsing = false
+    
+    var body: some View {
+        VStack {
+            Spacer()
+            ZStack {
+                if pulsing {
+                    PulsingHeart()
+                } else {
+                    ResetHeart()
+                }
+            }
+            Spacer()
+            PlayResetButton(animating: $pulsing)
+        }
+        .navigationTitle("Basic Animation")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+struct ResetHeart: View {
+    var body: some View {
+        Heart()
+            .frame(width: 100, height: 100)
+            .foregroundColor(.red)
+            .shadow(color: .pink, radius: 10)
+            .frame(width: 300, height: 300)
+        
+    }
+}
+
+struct PulsingHeart: View {
+    @State private var heartPulse: CGFloat = 1
+    var body: some View {
+        Heart()
+            .frame(width: 100, height: 100)
+            .foregroundColor(.red)
+            .scaleEffect(heartPulse)
+            .shadow(color: .pink, radius: 10)
+            .onAppear{
+                withAnimation(.easeInOut.repeatForever(autoreverses: true)) {
+                    heartPulse = 2.0 * heartPulse
+                    print("heartPulse", heartPulse)
+                }
+            }
+    }
+}
+
 struct Heart: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
@@ -32,54 +81,7 @@ struct Heart: Shape {
     }
 }
 
-struct ResetHeart: View {
-    var body: some View {
-        Heart()
-            .frame(width: 100, height: 100)
-            .foregroundColor(.red)
-            .shadow(color: .pink, radius: 10)
-            .frame(width: 300, height: 300)
-           
-    }
-}
 
-struct PulsingHeart: View {
-    @State private var heartPulse: CGFloat = 1
-    var body: some View {
-        Heart()
-            .frame(width: 100, height: 100)
-            .foregroundColor(.red)
-            .scaleEffect(heartPulse)
-            .shadow(color: .pink, radius: 10)
-            .onAppear{
-                withAnimation(.easeInOut.repeatForever(autoreverses: true)) {
-                    heartPulse = 2.0 * heartPulse
-                    print("heartPulse", heartPulse)
-                }
-            }
-    }
-}
-
-struct HeartPulseView: View {
-    @State private var pulsing = false
-    
-    var body: some View {
-        VStack {
-            Spacer()
-            ZStack {
-                if pulsing {
-                    PulsingHeart()
-                } else {
-                    ResetHeart()
-                }
-            }
-            Spacer()
-            PlayResetButton(animating: $pulsing)
-        }
-        .navigationTitle("Basic Animation")
-        .navigationBarTitleDisplayMode(.inline)
-    }
-}
 
 struct HeartPulseView_Previews: PreviewProvider {
     static var previews: some View {

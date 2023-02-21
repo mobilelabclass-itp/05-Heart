@@ -10,24 +10,7 @@
 		ABB4580829A54730001394BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB4580729A54730001394BB /* Assets.xcassets */; };
 		ABB4580B29A54730001394BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB4580A29A54730001394BB /* Preview Assets.xcassets */; };
 		ABB4582429A5480A001394BB /* HeartPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581129A54809001394BB /* HeartPulse.swift */; };
-		ABB4582529A5480A001394BB /* TopicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581229A54809001394BB /* TopicList.swift */; };
-		ABB4582629A5480A001394BB /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581329A54809001394BB /* MatchedGeometryEffect.swift */; };
-		ABB4582729A5480A001394BB /* TopicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581429A54809001394BB /* TopicRow.swift */; };
-		ABB4582829A5480A001394BB /* DancingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581529A54809001394BB /* DancingDots.swift */; };
-		ABB4582929A5480A001394BB /* TopicOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581629A54809001394BB /* TopicOrganizer.swift */; };
-		ABB4582A29A5480A001394BB /* RollinRainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581729A5480A001394BB /* RollinRainbow.swift */; };
-		ABB4582B29A5480A001394BB /* ExplodingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581829A5480A001394BB /* ExplodingView.swift */; };
-		ABB4582C29A5480A001394BB /* ModifyShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581929A5480A001394BB /* ModifyShapes.swift */; };
-		ABB4582D29A5480A001394BB /* BasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581A29A5480A001394BB /* BasicAnimation.swift */; };
-		ABB4582E29A5480A001394BB /* ShapeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581B29A5480A001394BB /* ShapeButtonStyle.swift */; };
 		ABB4582F29A5480A001394BB /* AnimatingShapesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581C29A5480A001394BB /* AnimatingShapesApp.swift */; };
-		ABB4583029A5480A001394BB /* BasicShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581D29A5480A001394BB /* BasicShapes.swift */; };
-		ABB4583129A5480A001394BB /* ShapeSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581E29A5480A001394BB /* ShapeSizing.swift */; };
-		ABB4583229A5480A001394BB /* ComposingShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4581F29A5480A001394BB /* ComposingShapes.swift */; };
-		ABB4583329A5480A001394BB /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4582029A5480A001394BB /* Topic.swift */; };
-		ABB4583429A5480A001394BB /* SpinningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4582129A5480A001394BB /* SpinningView.swift */; };
-		ABB4583529A5480A001394BB /* CreateAShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4582229A5480A001394BB /* CreateAShapeView.swift */; };
-		ABB4583629A5480A001394BB /* DragNDropDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4582329A5480A001394BB /* DragNDropDots.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,24 +18,7 @@
 		ABB4580729A54730001394BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB4580A29A54730001394BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABB4581129A54809001394BB /* HeartPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartPulse.swift; sourceTree = "<group>"; };
-		ABB4581229A54809001394BB /* TopicList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicList.swift; sourceTree = "<group>"; };
-		ABB4581329A54809001394BB /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
-		ABB4581429A54809001394BB /* TopicRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicRow.swift; sourceTree = "<group>"; };
-		ABB4581529A54809001394BB /* DancingDots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DancingDots.swift; sourceTree = "<group>"; };
-		ABB4581629A54809001394BB /* TopicOrganizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicOrganizer.swift; sourceTree = "<group>"; };
-		ABB4581729A5480A001394BB /* RollinRainbow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollinRainbow.swift; sourceTree = "<group>"; };
-		ABB4581829A5480A001394BB /* ExplodingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplodingView.swift; sourceTree = "<group>"; };
-		ABB4581929A5480A001394BB /* ModifyShapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyShapes.swift; sourceTree = "<group>"; };
-		ABB4581A29A5480A001394BB /* BasicAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicAnimation.swift; sourceTree = "<group>"; };
-		ABB4581B29A5480A001394BB /* ShapeButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeButtonStyle.swift; sourceTree = "<group>"; };
 		ABB4581C29A5480A001394BB /* AnimatingShapesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatingShapesApp.swift; sourceTree = "<group>"; };
-		ABB4581D29A5480A001394BB /* BasicShapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicShapes.swift; sourceTree = "<group>"; };
-		ABB4581E29A5480A001394BB /* ShapeSizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeSizing.swift; sourceTree = "<group>"; };
-		ABB4581F29A5480A001394BB /* ComposingShapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposingShapes.swift; sourceTree = "<group>"; };
-		ABB4582029A5480A001394BB /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
-		ABB4582129A5480A001394BB /* SpinningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinningView.swift; sourceTree = "<group>"; };
-		ABB4582229A5480A001394BB /* CreateAShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAShapeView.swift; sourceTree = "<group>"; };
-		ABB4582329A5480A001394BB /* DragNDropDots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragNDropDots.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,24 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				ABB4581C29A5480A001394BB /* AnimatingShapesApp.swift */,
-				ABB4581A29A5480A001394BB /* BasicAnimation.swift */,
-				ABB4581D29A5480A001394BB /* BasicShapes.swift */,
-				ABB4581F29A5480A001394BB /* ComposingShapes.swift */,
-				ABB4582229A5480A001394BB /* CreateAShapeView.swift */,
-				ABB4581529A54809001394BB /* DancingDots.swift */,
-				ABB4582329A5480A001394BB /* DragNDropDots.swift */,
-				ABB4581829A5480A001394BB /* ExplodingView.swift */,
 				ABB4581129A54809001394BB /* HeartPulse.swift */,
-				ABB4581329A54809001394BB /* MatchedGeometryEffect.swift */,
-				ABB4581929A5480A001394BB /* ModifyShapes.swift */,
-				ABB4581729A5480A001394BB /* RollinRainbow.swift */,
-				ABB4581B29A5480A001394BB /* ShapeButtonStyle.swift */,
-				ABB4581E29A5480A001394BB /* ShapeSizing.swift */,
-				ABB4582129A5480A001394BB /* SpinningView.swift */,
-				ABB4582029A5480A001394BB /* Topic.swift */,
-				ABB4581229A54809001394BB /* TopicList.swift */,
-				ABB4581629A54809001394BB /* TopicOrganizer.swift */,
-				ABB4581429A54809001394BB /* TopicRow.swift */,
 				ABB4580729A54730001394BB /* Assets.xcassets */,
 				ABB4580929A54730001394BB /* Preview Content */,
 			);
@@ -189,24 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB4582429A5480A001394BB /* HeartPulse.swift in Sources */,
-				ABB4583429A5480A001394BB /* SpinningView.swift in Sources */,
-				ABB4583329A5480A001394BB /* Topic.swift in Sources */,
-				ABB4583129A5480A001394BB /* ShapeSizing.swift in Sources */,
-				ABB4582C29A5480A001394BB /* ModifyShapes.swift in Sources */,
-				ABB4582A29A5480A001394BB /* RollinRainbow.swift in Sources */,
-				ABB4582529A5480A001394BB /* TopicList.swift in Sources */,
 				ABB4582F29A5480A001394BB /* AnimatingShapesApp.swift in Sources */,
-				ABB4582E29A5480A001394BB /* ShapeButtonStyle.swift in Sources */,
-				ABB4582729A5480A001394BB /* TopicRow.swift in Sources */,
-				ABB4582D29A5480A001394BB /* BasicAnimation.swift in Sources */,
-				ABB4583029A5480A001394BB /* BasicShapes.swift in Sources */,
-				ABB4582B29A5480A001394BB /* ExplodingView.swift in Sources */,
-				ABB4582629A5480A001394BB /* MatchedGeometryEffect.swift in Sources */,
-				ABB4583629A5480A001394BB /* DragNDropDots.swift in Sources */,
-				ABB4582829A5480A001394BB /* DancingDots.swift in Sources */,
-				ABB4582929A5480A001394BB /* TopicOrganizer.swift in Sources */,
-				ABB4583529A5480A001394BB /* CreateAShapeView.swift in Sources */,
-				ABB4583229A5480A001394BB /* ComposingShapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
