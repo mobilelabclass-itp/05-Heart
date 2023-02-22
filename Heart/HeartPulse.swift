@@ -46,7 +46,7 @@ struct PulsingHeart: View {
             .shadow(color: .pink, radius: 10)
             .onAppear{
                 withAnimation(.easeInOut.repeatForever(autoreverses: true)) {
-                    heartPulse = 2.0 * heartPulse
+                    heartPulse = 4.0 * heartPulse
                     print("heartPulse", heartPulse)
                 }
             }
