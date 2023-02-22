@@ -21,11 +21,11 @@ struct PlayResetButton: View {
     var resetOnly : Bool = false
     var action: () -> Void = { }
      
-    init(animating: Binding<Bool>, resetOnly: Bool = false, action: @escaping () -> Void = {}){
-        self._animating = animating
-        self.resetOnly = resetOnly
-        self.action = action
-     }
+//    init(animating: Binding<Bool>, resetOnly: Bool = false, action: @escaping () -> Void = {}){
+//        self._animating = animating
+//        self.resetOnly = resetOnly
+//        self.action = action
+//     }
 
     var body: some View {
         Button() {
