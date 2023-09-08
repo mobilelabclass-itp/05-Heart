@@ -1,12 +1,15 @@
 # [05-Heart-Shapes](https://github.com/mobilelabclass-itp/05-Heart-Shapes)
 
-From
+Research trail
 
-[animatingshapes](https://developer.apple.com/tutorials/sample-apps/animatingshapes?language=swift)
+- Sample app from Apple using animated shapes
+  [animatingshapes](https://developer.apple.com/tutorials/sample-apps/animatingshapes?language=swift)
 
-[sample-apps](https://developer.apple.com/tutorials/sample-apps?language=swift)
+- Outter sample app listing
+  [sample-apps](https://developer.apple.com/tutorials/sample-apps?language=swift)
 
-[Shape](https://developer.apple.com/documentation/swiftui/shape)
+- SwiftUI shape detailed documentation
+  [Shape](https://developer.apple.com/documentation/swiftui/shape)
 
 # Animating Shapes
 
