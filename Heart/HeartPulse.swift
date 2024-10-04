@@ -83,8 +83,6 @@ struct Heart: Shape {
 
 
 
-struct HeartPulseView_Previews: PreviewProvider {
-    static var previews: some View {
-        HeartPulseView()
-    }
+#Preview {
+    HeartPulseView()
 }
